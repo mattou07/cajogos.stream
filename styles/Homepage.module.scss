@@ -1,0 +1,10 @@
+.socialIconsContainer {
+    @apply md:flex md:justify-center;
+    @apply my-6;
+
+    a {
+        &:not(:last-child) {
+            @apply md:mr-4;
+        }
+    }
+}

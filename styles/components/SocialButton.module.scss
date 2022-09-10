@@ -1,0 +1,28 @@
+.socialButton {
+    @apply flex md:inline-flex justify-center items-center py-2 px-4 text-center md:m-0 mx-6 my-4;
+    @apply rounded border-b-4 border-blue-700 bg-blue-500 hover:border-blue-500 hover:bg-blue-400;
+    @apply font-bold text-white;
+
+    &:active {
+        position: relative;
+        top: 1px;
+    }
+    &.twitch {
+        @apply bg-twitch-default hover:bg-twitch-light active:bg-twitch-dark;
+        @apply border-twitch-dark;
+    }
+
+    &.twitter {
+        @apply bg-twitter-default hover:bg-twitter-light active:bg-twitter-dark;
+        @apply border-twitter-dark;
+    }
+
+    &.youtube {
+        @apply bg-youtube-default hover:bg-youtube-light active:bg-youtube-dark;
+        @apply border-youtube-dark;
+    }
+
+    .socialIcon {
+        @apply mr-2;
+    }
+}

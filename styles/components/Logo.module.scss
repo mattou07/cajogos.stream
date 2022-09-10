@@ -1,0 +1,24 @@
+.logoContainer{
+    @apply my-5 inline-block;
+
+    .cajogos {
+        @apply text-7xl uppercase font-bold;
+        animation: glow-text 1s ease-in-out infinite alternate;
+        font-family: 'Bungee', sans-serif;
+    }
+
+    .stream {
+        @apply text-xl text-slate-500 italic;
+        @apply md:inline hidden;
+    }
+}
+
+
+@keyframes glow-text {
+    from {
+        text-shadow: 0 0 0 #00DDFF;
+    }
+    to {
+        text-shadow: 0 0 40px #00DDFF;
+    }
+}
