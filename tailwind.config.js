@@ -21,7 +21,17 @@ module.exports = {
           'default': '#FF0000',
           'dark': '#CC0000',
           'light': '#FF3333',
-        }
+        },
+        'instagram': {
+          'default': '#E1306C',
+          'dark': '#B81E5A',
+          'light': '#E1306C',
+        },
+        'discord': {
+          'default': '#7289DA',
+          'dark': '#5F73BC',
+          'light': '#7289DA',
+        },
       }
     },
   },

@@ -1,10 +1,17 @@
 .socialIconsContainer {
     @apply md:flex md:justify-center;
     @apply my-6;
+}
+
+.doubleButtons {
+    @apply md:grid md:grid-cols-2;
 
     a {
-        &:not(:last-child) {
-            @apply md:mr-4;
+        &:nth-child(odd) {
+            @apply md:mr-2;
+        }
+        &:nth-child(even) {
+            @apply md:ml-2;
         }
     }
 }

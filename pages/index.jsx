@@ -1,5 +1,5 @@
 import SocialButton from '../components/SocialButton';
-import { FaInfoCircle, FaTwitch, FaTwitter, FaYoutube } from 'react-icons/fa';
+import { FaDiscord, FaInfoCircle, FaInstagram, FaTwitch, FaTwitter, FaYoutube } from 'react-icons/fa';
 import Styles from '../styles/Homepage.module.scss';
 import Logo from '../components/Logo';
 import Noot from '../components/Noot';
@@ -12,24 +12,50 @@ export default function Home()
       <Logo />
 
       <div className={Styles.socialIconsContainer}>
-        <SocialButton href="/twitch"
-          icon={<FaTwitch />}
-          text="Twitch"
-          className="twitch"
-        />
-        <SocialButton href="/twitter"
-          icon={<FaTwitter />}
-          text="Twitter"
-          className="twitter"
-        />
-        <SocialButton href="/youtube"
-          icon={<FaYoutube />}
-          text="YouTube"
-          className="youtube"
-        />
+
+        <div className={Styles.doubleButtons}>
+
+          <SocialButton href="/twitch"
+            icon={<FaTwitch />}
+            text="Twitch"
+            className="twitch"
+          />
+
+          <SocialButton href="/twitter"
+            icon={<FaTwitter />}
+            text="Twitter"
+            className="twitter"
+          />
+
+          <SocialButton href="/instagram"
+            icon={<FaInstagram />}
+            text="Instagram"
+            className="instagram"
+          />
+
+          <SocialButton href="/youtube"
+            icon={<FaYoutube />}
+            text="YouTube"
+            className="youtube"
+          />
+
+          <SocialButton href="/discord"
+            icon={<FaDiscord />}
+            text="Noot Army"
+            className="discord"
+          />
+
+          <SocialButton href="/beardiverse"
+            icon={<FaDiscord />}
+            text="Beardiverse"
+            className="discord"
+          />
+
+        </div>
+
       </div>
 
-      <div className="border-t border-gray-900 pt-5 mt-5">
+      <div className="border-t border-gray-900 pt-3 mt-3">
         <Noot />
       </div>
 

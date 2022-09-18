@@ -20,6 +20,21 @@ const nextConfig = {
         destination: 'https://www.youtube.com/channel/UC1xiWXTrJlGFhwpKPA52IjA',
         permanent: true,
       },
+      {
+        source: '/instagram',
+        destination: 'https://www.instagram.com/cajogos.stream',
+        permanent: true,
+      },
+      {
+        source: '/discord',
+        destination: 'https://discord.gg/VGPduFDjnu',
+        permanent: true,
+      },
+      {
+        source: '/beardiverse',
+        destination: 'https://discord.gg/DGu7bYQQg7',
+        permanent: true,
+      },
     ];
   }
 }
