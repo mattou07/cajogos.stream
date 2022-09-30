@@ -1,5 +1,5 @@
 import SocialButton from '../components/SocialButton';
-import { FaDiscord, FaInfoCircle, FaInstagram, FaTwitch, FaTwitter, FaYoutube } from 'react-icons/fa';
+import { FaDiscord, FaInstagram, FaTwitch, FaTwitter, FaYoutube } from 'react-icons/fa';
 import Styles from '../styles/Homepage.module.scss';
 import Logo from '../components/Logo';
 import Noot from '../components/Noot';
