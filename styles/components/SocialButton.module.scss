@@ -33,6 +33,11 @@
         @apply border-discord-dark;
     }
 
+    &.github {
+        @apply bg-github-default hover:bg-github-light active:bg-github-dark;
+        @apply border-github-dark;
+    }
+
     .socialIcon {
         @apply mr-2;
     }

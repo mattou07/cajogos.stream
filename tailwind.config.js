@@ -32,6 +32,11 @@ module.exports = {
           'dark': '#5F73BC',
           'light': '#7289DA',
         },
+        'github': {
+          'default': '#181717',
+          'dark': '#0D1117',
+          'light': '#24292E',
+        },
       }
     },
   },

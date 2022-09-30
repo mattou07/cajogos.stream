@@ -1,5 +1,5 @@
 import SocialButton from '../components/SocialButton';
-import { FaDiscord, FaInstagram, FaTwitch, FaTwitter, FaYoutube } from 'react-icons/fa';
+import { FaDiscord, FaInstagram, FaTwitch, FaTwitter, FaYoutube, FaGithub } from 'react-icons/fa';
 import Styles from '../styles/Homepage.module.scss';
 import Logo from '../components/Logo';
 import Noot from '../components/Noot';
@@ -49,6 +49,12 @@ export default function Home()
             icon={<FaDiscord />}
             text="Beardiverse"
             className="discord"
+          />
+
+          <SocialButton href="/github"
+            icon={<FaGithub />}
+            text="GitHub"
+            className="github"
           />
 
         </div>

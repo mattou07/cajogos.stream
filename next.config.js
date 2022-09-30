@@ -35,6 +35,11 @@ const nextConfig = {
         destination: 'https://discord.gg/DGu7bYQQg7',
         permanent: true,
       },
+      {
+        source: '/github',
+        destination: 'https://github.com/cajogos',
+        permanent: true,
+      }
     ];
   }
 }
