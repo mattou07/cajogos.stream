@@ -38,6 +38,11 @@
         @apply border-github-dark;
     }
 
+    &.voggt {
+        @apply bg-voggt-default hover:bg-voggt-light active:bg-voggt-dark;
+        @apply border-voggt-dark;
+    }
+
     .socialIcon {
         @apply mr-2;
     }

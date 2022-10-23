@@ -39,6 +39,11 @@ const nextConfig = {
         source: '/github',
         destination: 'https://github.com/cajogos',
         permanent: true,
+      },
+      {
+        source: '/voggt',
+        destination: 'https://app.voggt.com/profiles/69346',
+        permanent: true,
       }
     ];
   }
