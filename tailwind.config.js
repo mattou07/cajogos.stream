@@ -15,7 +15,7 @@ module.exports = {
         'twitter': {
           'default': '#1DA1F2',
           'dark': '#1A91DA',
-          'light': '#1DA1F2',
+          'light': '#299ce3',
         },
         'youtube': {
           'default': '#FF0000',
@@ -24,19 +24,24 @@ module.exports = {
         },
         'instagram': {
           'default': '#E1306C',
-          'dark': '#B81E5A',
-          'light': '#E1306C',
+          'dark': '#B81E5B',
+          'light': '#ef417c',
         },
         'discord': {
           'default': '#7289DA',
           'dark': '#5F73BC',
-          'light': '#7289DA',
+          'light': '#879eef',
         },
         'github': {
           'default': '#181717',
           'dark': '#0D1117',
           'light': '#24292E',
         },
+        'voggt': {
+          'default': '#1d1d1d',
+          'dark': '#0d0d0d',
+          'light': '#2d2d2d',
+        }
       }
     },
   },
