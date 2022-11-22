@@ -5,10 +5,7 @@ export default function Document()
     return (
         <Html lang="en">
             <Head>
-                <link
-                    href="https://fonts.googleapis.com/css2?family=Bungee"
-                    rel="stylesheet"
-                />
+                <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bungee&display=optional" />
             </Head>
             <body>
                 <Main />

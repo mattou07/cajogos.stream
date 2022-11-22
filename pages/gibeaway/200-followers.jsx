@@ -22,7 +22,7 @@ export default function Gibeaway200Followers()
 
                 <h1 className={Style.title}>200 Twitch Followers Gibeaway!</h1>
 
-                <p>Let's celebrate together reaching 200 followers on Twitch!</p>
+                <p>Let&apos;s celebrate together reaching 200 followers on Twitch!</p>
 
                 <div className={Style.section}>
                     <h2 className={Style.subtitle}>
