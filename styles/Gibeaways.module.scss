@@ -1,0 +1,37 @@
+.page {
+    @apply text-center h-screen flex flex-col mx-auto;
+    max-width: 990px;
+
+    .title {
+        @apply text-4xl;
+    }
+
+    .subtitle {
+        @apply text-2xl text-neutral-100;
+    }
+
+    .section {
+        @apply my-2 py-2 border-t border-neutral-500;
+    }
+
+    .button {
+        @apply bg-neutral-700 hover:bg-neutral-600 text-neutral-200 hover:text-neutral-100;
+        @apply px-4 py-2 rounded;
+    }
+
+    $boxed-width: 500px;
+
+    .details {
+        @apply mx-auto text-sm;
+        max-width: $boxed-width;
+
+        .detail {
+            @apply bg-neutral-900 p-2 my-2 cursor-default;
+            @apply hover:bg-neutral-800;
+
+            small {
+                @apply text-neutral-300 ml-2;
+            }
+        }
+    }
+}
