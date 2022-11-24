@@ -56,7 +56,7 @@ export default function Gibeaway200Followers()
                             You will be able to purchase entries using your NootCoins.<br />
                             <small>
                                 Join the giveaway by entering <code>!ticket</code> in the chat.<br />
-                                <a className="link" href="https://streamelements.com/cajogos/giveaway/637fd2caddeff96f60ac1c01" target="_blank">More information here</a>.
+                                <a className="link" href="https://streamelements.com/cajogos/giveaway/637fd2caddeff96f60ac1c01" target="_blank" rel="noreferrer">More information here</a>.
                             </small>
                         </li>
                         <li className={Style.detail}>
