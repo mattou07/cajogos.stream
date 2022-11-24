@@ -54,18 +54,28 @@ export default function Gibeaway200Followers()
                         <li className={Style.detail}>
                             The giveaway will run using the StreamElements platform.<br />
                             You will be able to purchase entries using your NootCoins.<br />
-                            <small>Giveaway link and more information on this soon...</small>
+                            <small>
+                                Join the giveaway by entering <code>!ticket</code> in the chat.<br />
+                                <a className="link" href="https://streamelements.com/cajogos/giveaway/637fd2caddeff96f60ac1c01" target="_blank">More information here</a>.
+                            </small>
                         </li>
                         <li className={Style.detail}>
-                            The winner will be announced on the celebration stream.<br />
-                            <small>Date to be announced soon...</small>
+                            The winner will be announced on the 6 hours celebration stream.<br />
+                            <small>Celebration stream is on 27th November 2022 at 5pm (UK Time).</small>
                         </li>
                         <li className={Style.detail}>
                             The winner will be contacted via Twitch whisper.<br />
-                            <small>The winner will have 24 hours to respond with their detail choice.</small>
+                            <small>The winner will have 24 hours to respond with their prize choice.</small>
                         </li>
                     </ul>
 
+                </div>
+
+                <div className="mx-auto">
+                    <iframe
+                        src="https://streamelements.com/overlay/62acc5e897f67b68a51375e8/OuSyfrqtqkLdhPfpInRTuiqS66cufU0HECMTf9E4k6ECD59E"
+                        width="350" height="250" scrolling="no" frameBorder="0" allowFullScreen={false}
+                    ></iframe>
                 </div>
 
                 <div className="text-center text-sm text-neutral-300 my-2">
