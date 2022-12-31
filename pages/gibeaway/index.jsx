@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import { FaArrowRight } from 'react-icons/fa';
 import Logo from '../../components/Logo';
 
 export default function GibeawayIndex()
@@ -13,19 +12,14 @@ export default function GibeawayIndex()
 
             <h2 className="text-4xl">Gibeaways!</h2>
 
-            <p className="text-sm text-neutral-300">Currently running gibeaways:</p>
+            <p className="text-sm text-neutral-300">Currently running Twitch gibeaway:</p>
 
-            <ul>
-                <li className="my-2">
-                    <Link href="/gibeaway/200-followers">
-                        <a className="text-neutral-200 hover:text-neutral-100 underline">
-                            <FaArrowRight className="inline" /> 200 Followers
-                        </a>
-                    </Link>
-                </li>
-            </ul>
-
-
+            <div className="mx-auto my-6">
+                <iframe
+                    src="https://streamelements.com/overlay/62acc5e897f67b68a51375e8/OuSyfrqtqkLdhPfpInRTuiqS66cufU0HECMTf9E4k6ECD59E"
+                    width="350" height="350" scrolling="no" frameBorder="0" allowFullScreen={false}
+                ></iframe>
+            </div>
         </div>
     )
 }

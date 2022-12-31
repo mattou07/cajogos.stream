@@ -4,6 +4,7 @@ import Styles from '../styles/Homepage.module.scss';
 import Logo from '../components/Logo';
 import Noot from '../components/Noot';
 import VoggtIcon from '../components/icons/Voggt';
+import Link from 'next/link';
 
 export default function Home()
 {
@@ -66,6 +67,12 @@ export default function Home()
 
         </div>
 
+      </div>
+
+      <div className="mb-4">
+        <Link href="/gibeaway">
+          <a className="bg-gray-900 text-white hover:bg-gray-700 px-4 py-2 rounded-lg mt-3">Gibeaways!</a>
+        </Link>
       </div>
 
       <div className="border-t border-gray-900 pt-3 mt-3">
