@@ -26,11 +26,6 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: '/discord',
-        destination: 'https://discord.gg/VGPduFDjnu',
-        permanent: true,
-      },
-      {
         source: '/beardiverse',
         destination: 'https://discord.gg/DGu7bYQQg7',
         permanent: true,
@@ -40,11 +35,6 @@ const nextConfig = {
         destination: 'https://github.com/cajogos',
         permanent: true,
       },
-      {
-        source: '/voggt',
-        destination: 'https://app.voggt.com/profiles/69346',
-        permanent: true,
-      }
     ];
   }
 }
