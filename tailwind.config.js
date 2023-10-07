@@ -36,11 +36,6 @@ module.exports = {
           'default': '#181717',
           'dark': '#0D1117',
           'light': '#24292E',
-        },
-        'voggt': {
-          'default': '#1d1d1d',
-          'dark': '#0d0d0d',
-          'light': '#2d2d2d',
         }
       }
     },

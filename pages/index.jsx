@@ -3,7 +3,6 @@ import { FaDiscord, FaInstagram, FaTwitch, FaTwitter, FaYoutube, FaGithub } from
 import Styles from '../styles/Homepage.module.scss';
 import Logo from '../components/Logo';
 import Noot from '../components/Noot';
-import VoggtIcon from '../components/icons/Voggt';
 import Link from 'next/link';
 
 export default function Home()
@@ -35,12 +34,6 @@ export default function Home()
             className="instagram"
           />
 
-          <SocialButton href="/voggt"
-            icon={<VoggtIcon darkMode={true} width={16} height={16} />}
-            text="Voggt"
-            className="voggt"
-          />
-
           <SocialButton href="/youtube"
             icon={<FaYoutube />}
             text="YouTube"
@@ -51,12 +44,6 @@ export default function Home()
             icon={<FaGithub />}
             text="GitHub"
             className="github"
-          />
-
-          <SocialButton href="/discord"
-            icon={<FaDiscord />}
-            text="Noot Army"
-            className="discord"
           />
 
           <SocialButton href="/beardiverse"
