@@ -13,9 +13,11 @@ export default function NootsBotPage() {
         <h1 className="text-3xl font-bold">Noots Bot</h1>
 
         <div className="my-3">
-          <Link href="https://twitch.tv/Noots_Bot">
-            <a target="_blank" rel="noopener noreferrer"
-              className="text-purple-300 hover:text-purple-400 hover:underline">Twitch Profile</a>
+          <Link href="https://twitch.tv/Noots_Bot"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-purple-300 hover:text-purple-400 hover:underline">
+            Twitch Profile
           </Link>
         </div>
 
@@ -74,7 +76,7 @@ export default function NootsBotPage() {
         </div>
 
         <div className="my-4 border-t py-3">
-          <p>Contact <Link href="https://twitch.tv/cajogos"><a target="_blank" rel="noopener noreferrer" className="text-purple-300 hover:text-purple-400 hover:underline">cajogos on Twitch</a></Link> to add Noots Bot to your channel!</p>
+          <p>Contact <Link href="https://twitch.tv/cajogos" target="_blank" rel="noopener noreferrer" className="text-purple-300 hover:text-purple-400 hover:underline">cajogos on Twitch</Link> to add Noots Bot to your channel!</p>
         </div>
 
       </div>
