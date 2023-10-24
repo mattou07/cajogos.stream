@@ -57,14 +57,14 @@ export default function Home() {
 
       <div className="flex mx-auto gap-4">
         <div className="mb-4">
-          <Link href="/gibeaway">
-            <a className="bg-gray-900 text-white hover:bg-gray-700 px-4 py-2 rounded-lg mt-3">Gibeaways!</a>
+          <Link href="/gibeaway" className="bg-gray-900 text-white hover:bg-gray-700 px-4 py-2 rounded-lg mt-3">
+            Gibeaways!
           </Link>
         </div>
 
         <div className="mb-4">
-          <Link href="/noots-bot">
-            <a className="bg-gray-900 text-white hover:bg-gray-700 px-4 py-2 rounded-lg mt-3">Noots Bot!</a>
+          <Link href="/noots-bot" className="bg-gray-900 text-white hover:bg-gray-700 px-4 py-2 rounded-lg mt-3">
+            Noots Bot!
           </Link>
         </div>
       </div>
